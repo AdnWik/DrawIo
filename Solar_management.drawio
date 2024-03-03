@@ -1,9 +1,46 @@
-<mxfile host="app.diagrams.net" modified="2024-03-03T22:20:42.955Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/122.0.0.0 Safari/537.36" version="23.0.1" etag="A9d-fiVZzDlFUjurWiKs" type="github">
+<mxfile host="app.diagrams.net" modified="2024-03-03T23:59:56.833Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/122.0.0.0 Safari/537.36" etag="izBY25heWzJX35L0D30G" version="23.0.1" type="github">
   <diagram name="Strona-1" id="XMEe8_cJdT2nGOJgmj7w">
-    <mxGraphModel>
+    <mxGraphModel dx="1292" dy="648" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
+        <mxCell id="Nnp-KVMijq4jb0hRBXpb-5" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="Nnp-KVMijq4jb0hRBXpb-1" target="Nnp-KVMijq4jb0hRBXpb-3">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="Nnp-KVMijq4jb0hRBXpb-1" value="START" style="whiteSpace=wrap;html=1;aspect=fixed;" vertex="1" parent="1">
+          <mxGeometry x="380" y="10" width="80" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="Nnp-KVMijq4jb0hRBXpb-10" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="Nnp-KVMijq4jb0hRBXpb-2" target="Nnp-KVMijq4jb0hRBXpb-9">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="Nnp-KVMijq4jb0hRBXpb-11" value="YES" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="Nnp-KVMijq4jb0hRBXpb-10">
+          <mxGeometry x="-0.0443" y="6" relative="1" as="geometry">
+            <mxPoint y="-14" as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="Nnp-KVMijq4jb0hRBXpb-13" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="Nnp-KVMijq4jb0hRBXpb-2" target="Nnp-KVMijq4jb0hRBXpb-12">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="Nnp-KVMijq4jb0hRBXpb-14" value="NO" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="Nnp-KVMijq4jb0hRBXpb-13">
+          <mxGeometry x="-0.1483" y="-2" relative="1" as="geometry">
+            <mxPoint y="-18" as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="Nnp-KVMijq4jb0hRBXpb-2" value="&amp;gt; 10 DAYS" style="rhombus;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="380" y="230" width="80" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="Nnp-KVMijq4jb0hRBXpb-8" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="Nnp-KVMijq4jb0hRBXpb-3" target="Nnp-KVMijq4jb0hRBXpb-2">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="Nnp-KVMijq4jb0hRBXpb-3" value="LAST BATTERY FULL CHARGE" style="whiteSpace=wrap;html=1;aspect=fixed;" vertex="1" parent="1">
+          <mxGeometry x="380" y="120" width="80" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="Nnp-KVMijq4jb0hRBXpb-9" value="BATTERY CHARGING PRIORITY" style="whiteSpace=wrap;html=1;aspect=fixed;" vertex="1" parent="1">
+          <mxGeometry x="530" y="230" width="80" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="Nnp-KVMijq4jb0hRBXpb-12" value="SELF CONSUMTION PRIORITY" style="whiteSpace=wrap;html=1;aspect=fixed;" vertex="1" parent="1">
+          <mxGeometry x="240" y="230" width="80" height="80" as="geometry" />
+        </mxCell>
       </root>
     </mxGraphModel>
   </diagram>
