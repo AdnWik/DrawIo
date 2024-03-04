@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2024-03-04T00:12:50.416Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/122.0.0.0 Safari/537.36" etag="LI_9iqKnPjXnfZ4tzBs2" version="23.0.1" type="github">
+<mxfile host="app.diagrams.net" modified="2024-03-04T00:21:28.736Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/122.0.0.0 Safari/537.36" etag="6M_6wh3MLUdQmsCHZBHs" version="23.0.1" type="github">
   <diagram name="Strona-1" id="XMEe8_cJdT2nGOJgmj7w">
     <mxGraphModel dx="2119" dy="648" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
@@ -10,20 +10,20 @@
         <mxCell id="Nnp-KVMijq4jb0hRBXpb-1" value="START" style="whiteSpace=wrap;html=1;aspect=fixed;" vertex="1" parent="1">
           <mxGeometry x="380" y="10" width="80" height="80" as="geometry" />
         </mxCell>
-        <mxCell id="Nnp-KVMijq4jb0hRBXpb-10" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="Nnp-KVMijq4jb0hRBXpb-2" target="Nnp-KVMijq4jb0hRBXpb-9">
-          <mxGeometry relative="1" as="geometry" />
-        </mxCell>
-        <mxCell id="Nnp-KVMijq4jb0hRBXpb-11" value="YES" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="Nnp-KVMijq4jb0hRBXpb-10">
-          <mxGeometry x="-0.0443" y="6" relative="1" as="geometry">
-            <mxPoint y="-14" as="offset" />
-          </mxGeometry>
-        </mxCell>
         <mxCell id="Nnp-KVMijq4jb0hRBXpb-13" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="Nnp-KVMijq4jb0hRBXpb-2" target="Nnp-KVMijq4jb0hRBXpb-12">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
         <mxCell id="Nnp-KVMijq4jb0hRBXpb-14" value="NO" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="Nnp-KVMijq4jb0hRBXpb-13">
           <mxGeometry x="-0.1483" y="-2" relative="1" as="geometry">
             <mxPoint y="-18" as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="Nnp-KVMijq4jb0hRBXpb-37" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="Nnp-KVMijq4jb0hRBXpb-2" target="Nnp-KVMijq4jb0hRBXpb-35">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="Nnp-KVMijq4jb0hRBXpb-39" value="YES" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="Nnp-KVMijq4jb0hRBXpb-37">
+          <mxGeometry x="-0.1962" y="-3" relative="1" as="geometry">
+            <mxPoint y="-23" as="offset" />
           </mxGeometry>
         </mxCell>
         <mxCell id="Nnp-KVMijq4jb0hRBXpb-2" value="&amp;gt; 10 DAYS" style="rhombus;whiteSpace=wrap;html=1;" vertex="1" parent="1">
@@ -35,13 +35,20 @@
         <mxCell id="Nnp-KVMijq4jb0hRBXpb-3" value="LAST BATTERY FULL CHARGE" style="whiteSpace=wrap;html=1;aspect=fixed;" vertex="1" parent="1">
           <mxGeometry x="380" y="120" width="80" height="80" as="geometry" />
         </mxCell>
-        <mxCell id="Nnp-KVMijq4jb0hRBXpb-9" value="BATTERY CHARGING PRIORITY" style="whiteSpace=wrap;html=1;aspect=fixed;" vertex="1" parent="1">
-          <mxGeometry x="520" y="230" width="80" height="80" as="geometry" />
+        <mxCell id="Nnp-KVMijq4jb0hRBXpb-44" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=1;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="Nnp-KVMijq4jb0hRBXpb-9" target="Nnp-KVMijq4jb0hRBXpb-41">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="720" y="430" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="Nnp-KVMijq4jb0hRBXpb-9" value="SOC LIMIT = ACTUAL SOC | BCP = TRUE" style="whiteSpace=wrap;html=1;aspect=fixed;" vertex="1" parent="1">
+          <mxGeometry x="680" y="230" width="80" height="80" as="geometry" />
         </mxCell>
         <mxCell id="Nnp-KVMijq4jb0hRBXpb-17" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="Nnp-KVMijq4jb0hRBXpb-12" target="Nnp-KVMijq4jb0hRBXpb-16">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
-        <mxCell id="Nnp-KVMijq4jb0hRBXpb-12" value="SET LAST MANUAL SOC" style="whiteSpace=wrap;html=1;aspect=fixed;" vertex="1" parent="1">
+        <mxCell id="Nnp-KVMijq4jb0hRBXpb-12" value="SET LAST MANUAL SOC | BCP = FALSE" style="whiteSpace=wrap;html=1;aspect=fixed;" vertex="1" parent="1">
           <mxGeometry x="250" y="230" width="80" height="80" as="geometry" />
         </mxCell>
         <mxCell id="Nnp-KVMijq4jb0hRBXpb-19" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="Nnp-KVMijq4jb0hRBXpb-16" target="Nnp-KVMijq4jb0hRBXpb-18">
@@ -84,6 +91,43 @@
         </mxCell>
         <mxCell id="Nnp-KVMijq4jb0hRBXpb-31" value="SELF CONSUMTION PRIORITY" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
           <mxGeometry x="-60" y="150" width="280" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="Nnp-KVMijq4jb0hRBXpb-32" value="BATTERY CHARGING PRIORITY" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="570" y="130" width="280" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="Nnp-KVMijq4jb0hRBXpb-38" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="Nnp-KVMijq4jb0hRBXpb-35" target="Nnp-KVMijq4jb0hRBXpb-9">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="Nnp-KVMijq4jb0hRBXpb-40" value="NO" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="Nnp-KVMijq4jb0hRBXpb-38">
+          <mxGeometry x="-0.1971" y="2" relative="1" as="geometry">
+            <mxPoint y="-18" as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="Nnp-KVMijq4jb0hRBXpb-42" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="Nnp-KVMijq4jb0hRBXpb-35" target="Nnp-KVMijq4jb0hRBXpb-41">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="Nnp-KVMijq4jb0hRBXpb-43" value="YES" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="Nnp-KVMijq4jb0hRBXpb-42">
+          <mxGeometry x="-0.058" y="-3" relative="1" as="geometry">
+            <mxPoint x="-17" as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="Nnp-KVMijq4jb0hRBXpb-35" value="BCP ?" style="rhombus;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="520" y="230" width="80" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="Nnp-KVMijq4jb0hRBXpb-46" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="Nnp-KVMijq4jb0hRBXpb-41" target="Nnp-KVMijq4jb0hRBXpb-45">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="Nnp-KVMijq4jb0hRBXpb-41" value="LIMIT?" style="rhombus;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="520" y="390" width="80" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="Nnp-KVMijq4jb0hRBXpb-48" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="Nnp-KVMijq4jb0hRBXpb-45" target="Nnp-KVMijq4jb0hRBXpb-47">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="Nnp-KVMijq4jb0hRBXpb-45" value="MPPT?" style="rhombus;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="520" y="550" width="80" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="Nnp-KVMijq4jb0hRBXpb-47" value="OFF" style="rhombus;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="520" y="710" width="80" height="80" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
