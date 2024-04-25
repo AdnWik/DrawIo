@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2024-04-25T17:34:52.533Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/124.0.0.0 Safari/537.36" etag="GAe0pUrD2GMNJ8nVextF" version="24.3.0" type="github">
+<mxfile host="app.diagrams.net" modified="2024-04-25T18:13:02.221Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/124.0.0.0 Safari/537.36" etag="PMdxCeuRU7FlvGua3yuw" version="24.3.0" type="github">
   <diagram name="Strona-1" id="XMEe8_cJdT2nGOJgmj7w">
     <mxGraphModel dx="2474" dy="848" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
@@ -43,6 +43,14 @@
             <mxPoint x="-8" y="2" as="offset" />
           </mxGeometry>
         </mxCell>
+        <mxCell id="0OKeJHytdhdAyVr8vPEN-29" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="Nnp-KVMijq4jb0hRBXpb-16" target="0OKeJHytdhdAyVr8vPEN-28">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="0OKeJHytdhdAyVr8vPEN-30" value="YES" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="0OKeJHytdhdAyVr8vPEN-29">
+          <mxGeometry x="0.0028" relative="1" as="geometry">
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
         <mxCell id="Nnp-KVMijq4jb0hRBXpb-16" value="SOLAR CHARGER&lt;div&gt;STATE == MPPT&lt;/div&gt;" style="rhombus;whiteSpace=wrap;html=1;" parent="1" vertex="1">
           <mxGeometry x="-20" y="230" width="150" height="140" as="geometry" />
         </mxCell>
@@ -54,8 +62,19 @@
             <mxPoint x="-15" y="1" as="offset" />
           </mxGeometry>
         </mxCell>
+        <mxCell id="0OKeJHytdhdAyVr8vPEN-32" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="Nnp-KVMijq4jb0hRBXpb-18" target="0OKeJHytdhdAyVr8vPEN-31">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="0OKeJHytdhdAyVr8vPEN-33" value="YES" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="0OKeJHytdhdAyVr8vPEN-32">
+          <mxGeometry x="-0.0324" y="-1" relative="1" as="geometry">
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
         <mxCell id="Nnp-KVMijq4jb0hRBXpb-18" value="SOLAR CHARGER&lt;div&gt;STATE == LIMIT&lt;/div&gt;" style="rhombus;whiteSpace=wrap;html=1;" parent="1" vertex="1">
           <mxGeometry x="-260" y="225" width="150" height="150" as="geometry" />
+        </mxCell>
+        <mxCell id="0OKeJHytdhdAyVr8vPEN-47" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="Nnp-KVMijq4jb0hRBXpb-20" target="0OKeJHytdhdAyVr8vPEN-43">
+          <mxGeometry relative="1" as="geometry" />
         </mxCell>
         <mxCell id="Nnp-KVMijq4jb0hRBXpb-20" value="SOLAR CHARGER&lt;div&gt;STATE == OFF&lt;/div&gt;" style="rhombus;whiteSpace=wrap;html=1;" parent="1" vertex="1">
           <mxGeometry x="-500" y="232.5" width="150" height="135" as="geometry" />
@@ -115,6 +134,27 @@
         </mxCell>
         <mxCell id="0OKeJHytdhdAyVr8vPEN-25" value="SOLAR CHARGER&lt;div&gt;STATE == OFF&lt;/div&gt;" style="rhombus;whiteSpace=wrap;html=1;" vertex="1" parent="1">
           <mxGeometry x="630" y="910" width="150" height="135" as="geometry" />
+        </mxCell>
+        <mxCell id="0OKeJHytdhdAyVr8vPEN-49" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;" edge="1" parent="1" source="0OKeJHytdhdAyVr8vPEN-28" target="0OKeJHytdhdAyVr8vPEN-34">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="0OKeJHytdhdAyVr8vPEN-28" value="1.CALCULATE AND SET DYNAMIC MAX INVERTER POWER LIMIT&lt;div&gt;&lt;br&gt;&lt;div&gt;2.CALCULATE AND SET GRID SET POINT&lt;/div&gt;&lt;/div&gt;&lt;div&gt;&lt;br&gt;&lt;/div&gt;&lt;div&gt;3.CALCULATE AND SET MAX CURRENT TO CHARGE BATTERY&lt;/div&gt;" style="whiteSpace=wrap;html=1;aspect=fixed;" vertex="1" parent="1">
+          <mxGeometry x="-20" y="460" width="150" height="150" as="geometry" />
+        </mxCell>
+        <mxCell id="0OKeJHytdhdAyVr8vPEN-48" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="0OKeJHytdhdAyVr8vPEN-31" target="0OKeJHytdhdAyVr8vPEN-42">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="0OKeJHytdhdAyVr8vPEN-31" value="1.SET INVERTER POWER LIMIT TO NOMINAL POWER&lt;div&gt;&lt;br&gt;&lt;div&gt;2.CALCULATE AND SET GRID SET POINT&lt;/div&gt;&lt;/div&gt;&lt;div&gt;&lt;br&gt;&lt;/div&gt;&lt;div&gt;3.CALCULATE AND SET MAX CURRENT TO CHARGE BATTERY&lt;/div&gt;" style="whiteSpace=wrap;html=1;aspect=fixed;" vertex="1" parent="1">
+          <mxGeometry x="-260" y="460" width="150" height="150" as="geometry" />
+        </mxCell>
+        <mxCell id="0OKeJHytdhdAyVr8vPEN-34" value="KONIEC" style="ellipse;whiteSpace=wrap;html=1;aspect=fixed;" vertex="1" parent="1">
+          <mxGeometry x="15" y="750" width="80" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="0OKeJHytdhdAyVr8vPEN-42" value="KONIEC" style="ellipse;whiteSpace=wrap;html=1;aspect=fixed;" vertex="1" parent="1">
+          <mxGeometry x="-225" y="740" width="80" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="0OKeJHytdhdAyVr8vPEN-43" value="KONIEC" style="ellipse;whiteSpace=wrap;html=1;aspect=fixed;" vertex="1" parent="1">
+          <mxGeometry x="-465" y="740" width="80" height="80" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
