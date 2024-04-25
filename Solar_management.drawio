@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2024-04-25T17:31:55.227Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/124.0.0.0 Safari/537.36" etag="Eq_AylTeEHbHmYsGsOLc" version="24.3.0" type="github">
+<mxfile host="app.diagrams.net" modified="2024-04-25T17:34:52.533Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/124.0.0.0 Safari/537.36" etag="GAe0pUrD2GMNJ8nVextF" version="24.3.0" type="github">
   <diagram name="Strona-1" id="XMEe8_cJdT2nGOJgmj7w">
     <mxGraphModel dx="2474" dy="848" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
@@ -61,16 +61,24 @@
           <mxGeometry x="-500" y="232.5" width="150" height="135" as="geometry" />
         </mxCell>
         <mxCell id="Nnp-KVMijq4jb0hRBXpb-31" value="SELF CONSUMTION PRIORITY" style="rounded=1;whiteSpace=wrap;html=1;" parent="1" vertex="1">
-          <mxGeometry x="-110" y="130" width="280" height="60" as="geometry" />
+          <mxGeometry x="-325" y="120" width="280" height="60" as="geometry" />
         </mxCell>
         <mxCell id="Nnp-KVMijq4jb0hRBXpb-32" value="BATTERY CHARGING PRIORITY" style="rounded=1;whiteSpace=wrap;html=1;" parent="1" vertex="1">
-          <mxGeometry x="690" y="50" width="280" height="60" as="geometry" />
+          <mxGeometry x="710" y="120" width="280" height="60" as="geometry" />
         </mxCell>
         <mxCell id="Nnp-KVMijq4jb0hRBXpb-38" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" parent="1" source="Nnp-KVMijq4jb0hRBXpb-35" target="Nnp-KVMijq4jb0hRBXpb-9" edge="1">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
         <mxCell id="0OKeJHytdhdAyVr8vPEN-8" value="NO" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="Nnp-KVMijq4jb0hRBXpb-38">
           <mxGeometry x="-0.136" y="-1" relative="1" as="geometry">
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="0OKeJHytdhdAyVr8vPEN-20" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="Nnp-KVMijq4jb0hRBXpb-35" target="0OKeJHytdhdAyVr8vPEN-19">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="0OKeJHytdhdAyVr8vPEN-21" value="YES" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="0OKeJHytdhdAyVr8vPEN-20">
+          <mxGeometry x="-0.2546" y="-1" relative="1" as="geometry">
             <mxPoint as="offset" />
           </mxGeometry>
         </mxCell>
@@ -82,6 +90,31 @@
         </mxCell>
         <mxCell id="0OKeJHytdhdAyVr8vPEN-12" value="START" style="ellipse;whiteSpace=wrap;html=1;aspect=fixed;" vertex="1" parent="1">
           <mxGeometry x="425" y="80" width="80" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="0OKeJHytdhdAyVr8vPEN-23" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="0OKeJHytdhdAyVr8vPEN-19" target="0OKeJHytdhdAyVr8vPEN-22">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="0OKeJHytdhdAyVr8vPEN-24" value="NO" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="0OKeJHytdhdAyVr8vPEN-23">
+          <mxGeometry x="-0.2302" y="-2" relative="1" as="geometry">
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="0OKeJHytdhdAyVr8vPEN-19" value="SOLAR CHARGER&lt;div&gt;STATE == MPPT&lt;/div&gt;" style="rhombus;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="630" y="450" width="150" height="140" as="geometry" />
+        </mxCell>
+        <mxCell id="0OKeJHytdhdAyVr8vPEN-26" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="0OKeJHytdhdAyVr8vPEN-22" target="0OKeJHytdhdAyVr8vPEN-25">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="0OKeJHytdhdAyVr8vPEN-27" value="NO" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="0OKeJHytdhdAyVr8vPEN-26">
+          <mxGeometry x="0.0052" y="-1" relative="1" as="geometry">
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="0OKeJHytdhdAyVr8vPEN-22" value="SOLAR CHARGER&lt;div&gt;STATE == LIMIT&lt;/div&gt;" style="rhombus;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="630" y="670" width="150" height="150" as="geometry" />
+        </mxCell>
+        <mxCell id="0OKeJHytdhdAyVr8vPEN-25" value="SOLAR CHARGER&lt;div&gt;STATE == OFF&lt;/div&gt;" style="rhombus;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="630" y="910" width="150" height="135" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
